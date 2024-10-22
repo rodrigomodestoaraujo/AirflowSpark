@@ -1,0 +1,138 @@
+[2024-10-22T23:49:33.053+0000] {processor.py:157} INFO - Started process (PID=173) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:49:33.054+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:49:33.054+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.054+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:49:33.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:49:33.170+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.170+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-22T23:49:33.178+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.177+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-22T23:49:33.182+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.182+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-10-22T23:49:33.182+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.182+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:Ingestion' as access control is unset.
+[2024-10-22T23:49:33.183+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.182+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:49:33.191+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.191+0000] {dag.py:2937} INFO - Creating ORM DAG for Ingestion
+[2024-10-22T23:49:33.199+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:49:33.199+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:49:33.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.159 seconds
+[2024-10-22T23:50:03.291+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:03.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:50:03.301+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:03.300+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:03.324+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:03.363+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:03.362+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:50:03.388+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:03.388+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:50:03.408+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.123 seconds
+[2024-10-22T23:50:33.614+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:33.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:50:33.624+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:33.623+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:33.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:50:33.673+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:33.673+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:50:33.693+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:50:33.693+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:50:33.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.100 seconds
+[2024-10-22T23:51:03.841+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:51:03.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:51:03.850+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:51:03.850+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:51:03.870+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:51:03.899+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:51:03.899+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:51:03.920+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:51:03.920+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:51:03.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.100 seconds
+[2024-10-22T23:52:17.633+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:17.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:52:17.634+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:17.634+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:17.649+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:17.679+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:17.679+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:52:17.699+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:17.699+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:52:17.714+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.084 seconds
+[2024-10-22T23:52:47.836+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:47.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:52:47.838+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:47.837+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:47.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:52:47.890+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:47.890+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:52:47.917+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:52:47.917+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:52:47.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.110 seconds
+[2024-10-22T23:53:18.095+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:18.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:53:18.104+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:18.103+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:18.117+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:18.148+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:18.148+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:53:18.170+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:18.169+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:53:18.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.094 seconds
+[2024-10-22T23:53:48.353+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:48.362+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:53:48.365+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:48.364+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:48.388+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:53:48.421+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:48.420+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:53:48.446+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:53:48.446+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:53:48.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.116 seconds
+[2024-10-22T23:54:18.607+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:18.615+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:54:18.616+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:18.616+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:18.632+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:18.665+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:18.665+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:54:18.688+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:18.687+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:54:18.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.100 seconds
+[2024-10-22T23:54:48.848+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:48.856+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:54:48.857+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:48.857+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:48.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:54:48.947+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:48.946+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:54:48.988+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:54:48.988+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:54:49.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.170 seconds
+[2024-10-22T23:55:19.144+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:19.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:55:19.156+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:19.155+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:19.178+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:19.212+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:19.211+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:55:19.235+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:19.235+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:55:19.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.115 seconds
+[2024-10-22T23:55:49.426+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:49.434+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:55:49.435+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:49.434+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:49.447+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:55:49.472+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:49.472+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:55:49.494+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:55:49.493+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:55:49.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.090 seconds
+[2024-10-22T23:56:19.651+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:19.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:56:19.661+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:19.660+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:19.683+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:19.710+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:19.709+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:56:19.730+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:19.730+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:56:19.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.097 seconds
+[2024-10-22T23:56:49.910+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:49.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:56:49.919+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:49.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:49.933+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:56:49.959+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:49.959+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:56:49.979+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:56:49.979+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:56:49.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.092 seconds
+[2024-10-22T23:57:20.170+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:20.171+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:57:20.171+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:20.171+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:20.181+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:20.207+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:20.207+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:57:20.227+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:20.226+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:57:20.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.075 seconds
+[2024-10-22T23:57:50.396+0000] {processor.py:157} INFO - Started process (PID=228) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:50.404+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:57:50.405+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:50.405+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:50.421+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:57:50.462+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:50.462+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:57:50.482+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:57:50.482+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:57:50.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.102 seconds
+[2024-10-22T23:58:20.670+0000] {processor.py:157} INFO - Started process (PID=233) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:20.679+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:58:20.681+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:20.680+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:20.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:20.730+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:20.730+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:58:20.750+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:20.750+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-21T00:00:00+00:00, run_after=2024-10-22T00:00:00+00:00
+[2024-10-22T23:58:20.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.099 seconds
+[2024-10-22T23:58:50.923+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:50.924+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:58:50.925+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:50.924+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:50.938+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:58:50.963+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:50.963+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:58:50.982+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:58:50.982+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-22T00:00:00+00:00, run_after=2024-10-23T00:00:00+00:00
+[2024-10-22T23:58:50.997+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.079 seconds
+[2024-10-22T23:59:14.138+0000] {processor.py:157} INFO - Started process (PID=247) to work on /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:59:14.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_ingestion.py for tasks to queue
+[2024-10-22T23:59:14.150+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:59:14.149+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:59:14.176+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Ingestion']) retrieved from /opt/airflow/dags/spark_ingestion.py
+[2024-10-22T23:59:14.205+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:59:14.205+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-10-22T23:59:14.227+0000] {logging_mixin.py:151} INFO - [2024-10-22T23:59:14.227+0000] {dag.py:3696} INFO - Setting next_dagrun for Ingestion to 2024-10-22T00:00:00+00:00, run_after=2024-10-23T00:00:00+00:00
+[2024-10-22T23:59:14.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_ingestion.py took 0.113 seconds
