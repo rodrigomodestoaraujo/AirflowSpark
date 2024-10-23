@@ -35,7 +35,7 @@ Docker com Airflow + Postgres + Spark cluster
 
 Caso você encontre o erro "[Errno 13] Permission denied: '/opt/airflow/logs/scheduler'", execute o comando abaixo:
 
- $ sudo chmod -R 777 ./logs
+    $ sudo chmod -R 777 ./logs
 
 
 ### Obrigado pela leitura!

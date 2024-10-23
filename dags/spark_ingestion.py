@@ -18,12 +18,12 @@ bronze = PythonOperator(
     dag=dag
 )
 
-#silver = SparkSubmitOperator(
-#    task_id="Silver",
-#    conn_id="spark-conn",
-#    application="jobs/python/wordcountjob.py",
-#    dag=dag
-#)
+silver = SparkSubmitOperator(
+    task_id="Silver",
+    conn_id="spark-conn",
+    application="jobs/silver/usuarios.py",
+    dag=dag
+)
 
 gold = PythonOperator(
     task_id="Gold",
@@ -31,4 +31,4 @@ gold = PythonOperator(
     dag=dag
 )
 
-bronze >> gold
+bronze >> silver >> gold
