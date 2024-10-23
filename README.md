@@ -13,7 +13,7 @@ Docker com Airflow + Postgres + Spark cluster
 
 ### Construindo projeto com Docker
 
-    $ docker-compose up -d
+    $ docker-compose up  --build
 
 ### Acessos
 

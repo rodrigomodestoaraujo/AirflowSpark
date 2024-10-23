@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("PythonWordCount").getOrCreate()
+spark = SparkSession.builder.appName("IngestaoSilver").getOrCreate()
 
 # Imprimindo uma mensagem
 print("Hello from Spark!")
