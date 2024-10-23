@@ -17,7 +17,7 @@ Docker com Airflow + Postgres + Spark cluster
 
 ### Acessos
 
-* Airflow: http://localhost:8080 - Usuário admin - Senha admin
+* Airflow: http://localhost:8080 - U admin - S admin
 * Spark Master: http://localhost:9090
 
 ### Criação conexão Airflow
