@@ -34,7 +34,7 @@ default_args = {
 }
 
 with DAG(
-    'consume_brewery_api',
+    'api_openbrewerydb_to_bronze',
     default_args=default_args,
     description='DAG para extrair dados da API OpenBrewery e salvar em bronze',
     schedule_interval='0 7 * * *',
