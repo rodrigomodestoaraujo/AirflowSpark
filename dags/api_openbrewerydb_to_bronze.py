@@ -18,6 +18,7 @@ def ApiOpenbrewerydb(url, path_bronze):
             with open(f"{path_saida}/dados.json", "w") as arquivo:
                 arquivo.write(dados_str)
                 print("Arquivo gerado com sucesso!")
+                print(f"Path: {path_saida}/dados.json")
         else:
             print(f"Erro na chamada da API")
             print(f"Status Code: {resp}")
@@ -28,7 +29,7 @@ def ApiOpenbrewerydb(url, path_bronze):
 default_args = {
     'owner': 'Rodrigo Araujo',
     'depends_on_past': False,
-    'start_date': datetime(2023, 10, 22),
+    'start_date': datetime(2024, 10, 22),
     'retries': 1,
     'retry_delay': timedelta(minutes=5)
 }
@@ -47,7 +48,7 @@ with DAG(
         task_id='api_openbrewerydb_to_bronze',
         python_callable=ApiOpenbrewerydb,
         op_kwargs={'url': 'https://api.openbrewerydb.org/breweries', 
-                   'path_bronze': '/opt/airflow/data-lake/bronze'},
+                   'path_bronze': '/opt/airflow/data-lake/bronze/openbrewerydb'},
     )
 
     task_api_to_bronze

@@ -19,13 +19,14 @@ x-airflow-common: &airflow-common
     dockerfile: Dockerfile
   env_file:
     - airflow.env
+  user: "root"
   volumes:
     - ./jobs:/opt/airflow/jobs
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
-    - ./data-lake/bronze:/opt/airflow/data-lake/bronze  # Volume Bronze
-    - ./data-lake/silver:/opt/airflow/data-lake/silver  # Volume Silver
-    - ./data-lake/gold:/opt/airflow/data-lake/gold  # Volume Gold
+    - ./data-lake/bronze:/opt/airflow/data-lake/bronze # Volume Bronze
+    - ./data-lake/silver:/opt/airflow/data-lake/silver # Volume Silver
+    - ./data-lake/gold:/opt/airflow/data-lake/gold # Volume Gold
   depends_on:
     - postgres
   networks:

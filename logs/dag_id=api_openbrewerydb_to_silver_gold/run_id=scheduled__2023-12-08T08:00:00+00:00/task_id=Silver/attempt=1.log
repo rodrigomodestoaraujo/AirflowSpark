@@ -473,3 +473,79 @@ airflow.exceptions.AirflowException: Task received SIGTERM signal
 [2024-10-24T01:35:26.262+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=9236, status='terminated', started='01:27:02') (9236) terminated with exit code None
 [2024-10-24T01:35:26.263+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=9156, status='terminated', exitcode=1, started='01:27:01') (9156) terminated with exit code 1
 [2024-10-24T01:35:26.264+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=9653, status='terminated', started='01:27:24') (9653) terminated with exit code None
+[2024-10-24T14:36:52.947+0000] {logging_mixin.py:151} INFO - Changing /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509
+[2024-10-24T14:36:52.955+0000] {logging_mixin.py:151} INFO - Failed to change /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver'
+[2024-10-24T14:36:52.983+0000] {logging_mixin.py:151} INFO - Changing /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509
+[2024-10-24T14:36:52.983+0000] {logging_mixin.py:151} INFO - Failed to change /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver'
+[2024-10-24T14:36:53.012+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-08T08:00:00+00:00 [queued]>
+[2024-10-24T14:36:53.019+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-08T08:00:00+00:00 [queued]>
+[2024-10-24T14:36:53.019+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-10-24T14:36:53.029+0000] {taskinstance.py:1380} INFO - Executing <Task(SparkSubmitOperator): Silver> on 2023-12-08 08:00:00+00:00
+[2024-10-24T14:36:53.034+0000] {standard_task_runner.py:57} INFO - Started process 15514 to run task
+[2024-10-24T14:36:53.036+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_openbrewerydb_to_silver_gold', 'Silver', 'scheduled__2023-12-08T08:00:00+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/api_openbrewerydb_to_silver.py', '--cfg-path', '/tmp/tmpzhswv8ng']
+[2024-10-24T14:36:53.037+0000] {standard_task_runner.py:85} INFO - Job 101: Subtask Silver
+[2024-10-24T14:36:53.083+0000] {logging_mixin.py:151} INFO - Changing /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509
+[2024-10-24T14:36:53.084+0000] {logging_mixin.py:151} INFO - Failed to change /opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver permission to 509: [Errno 1] Operation not permitted: '/opt/***/logs/dag_id=api_openbrewerydb_to_silver_gold/run_id=scheduled__2023-12-08T08:00:00+00:00/task_id=Silver'
+[2024-10-24T14:36:53.084+0000] {task_command.py:415} INFO - Running <TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-08T08:00:00+00:00 [running]> on host 96f89615839b
+[2024-10-24T14:36:53.163+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rodrigo Araujo' AIRFLOW_CTX_DAG_ID='api_openbrewerydb_to_silver_gold' AIRFLOW_CTX_TASK_ID='Silver' AIRFLOW_CTX_EXECUTION_DATE='2023-12-08T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-08T08:00:00+00:00'
+[2024-10-24T14:36:53.174+0000] {base.py:73} INFO - Using connection ID 'spark-conn' for task execution.
+[2024-10-24T14:36:53.175+0000] {spark_submit.py:363} INFO - Spark-Submit cmd: spark-submit --master spark://spark-master:7077 --name arrow-spark jobs/silver/api_openbrewerydb.py
+[2024-10-24T14:36:55.878+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:55 INFO SparkContext: Running Spark version 3.5.3
+[2024-10-24T14:36:55.880+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:55 INFO SparkContext: OS info Linux, 5.15.0-124-generic, amd64
+[2024-10-24T14:36:55.880+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:55 INFO SparkContext: Java version 11.0.25
+[2024-10-24T14:36:55.938+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-10-24T14:36:56.031+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceUtils: ==============================================================
+[2024-10-24T14:36:56.031+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-10-24T14:36:56.031+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceUtils: ==============================================================
+[2024-10-24T14:36:56.032+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SparkContext: Submitted application: IngestaoSilver
+[2024-10-24T14:36:56.056+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-10-24T14:36:56.072+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceProfile: Limiting resource is cpu
+[2024-10-24T14:36:56.073+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-10-24T14:36:56.128+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SecurityManager: Changing view acls to: ***
+[2024-10-24T14:36:56.128+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SecurityManager: Changing modify acls to: ***
+[2024-10-24T14:36:56.129+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SecurityManager: Changing view acls groups to:
+[2024-10-24T14:36:56.130+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SecurityManager: Changing modify acls groups to:
+[2024-10-24T14:36:56.130+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ***; groups with view permissions: EMPTY; users with modify permissions: ***; groups with modify permissions: EMPTY
+[2024-10-24T14:36:56.415+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO Utils: Successfully started service 'sparkDriver' on port 45625.
+[2024-10-24T14:36:56.448+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SparkEnv: Registering MapOutputTracker
+[2024-10-24T14:36:56.488+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SparkEnv: Registering BlockManagerMaster
+[2024-10-24T14:36:56.514+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2024-10-24T14:36:56.515+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2024-10-24T14:36:56.519+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2024-10-24T14:36:56.541+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-d2157f54-6d02-4dd0-821d-0403f3864a6a
+[2024-10-24T14:36:56.559+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2024-10-24T14:36:56.575+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO SparkEnv: Registering OutputCommitCoordinator
+[2024-10-24T14:36:56.712+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2024-10-24T14:36:56.760+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2024-10-24T14:36:56.891+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2024-10-24T14:36:56.942+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:56 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.2:7077 after 29 ms (0 ms spent in bootstraps)
+[2024-10-24T14:36:57.038+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20241024143657-0096
+[2024-10-24T14:36:57.054+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20241024143657-0096/0 on worker-20241024142308-172.18.0.5-43899 (172.18.0.5:43899) with 2 core(s)
+[2024-10-24T14:36:57.071+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneSchedulerBackend: Granted executor ID app-20241024143657-0096/0 on hostPort 172.18.0.5:43899 with 2 core(s), 1024.0 MiB RAM
+[2024-10-24T14:36:57.096+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 36927.
+[2024-10-24T14:36:57.096+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO NettyBlockTransferService: Server created on 96f89615839b:36927
+[2024-10-24T14:36:57.099+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2024-10-24T14:36:57.108+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20241024143657-0096/0 is now RUNNING
+[2024-10-24T14:36:57.117+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 96f89615839b, 36927, None)
+[2024-10-24T14:36:57.119+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManagerMasterEndpoint: Registering block manager 96f89615839b:36927 with 434.4 MiB RAM, BlockManagerId(driver, 96f89615839b, 36927, None)
+[2024-10-24T14:36:57.123+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 96f89615839b, 36927, None)
+[2024-10-24T14:36:57.125+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 96f89615839b, 36927, None)
+[2024-10-24T14:36:57.408+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2024-10-24T14:36:57.638+0000] {spark_submit.py:524} INFO - Hello from Spark!
+[2024-10-24T14:36:57.639+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2024-10-24T14:36:57.651+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO SparkUI: Stopped Spark web UI at http://96f89615839b:4040
+[2024-10-24T14:36:57.657+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2024-10-24T14:36:57.662+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Asking each executor to shut down
+[2024-10-24T14:36:57.679+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2024-10-24T14:36:57.688+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO MemoryStore: MemoryStore cleared
+[2024-10-24T14:36:57.688+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManager: BlockManager stopped
+[2024-10-24T14:36:57.693+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2024-10-24T14:36:57.695+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2024-10-24T14:36:57.702+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:57 INFO SparkContext: Successfully stopped SparkContext
+[2024-10-24T14:36:58.015+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:58 INFO ShutdownHookManager: Shutdown hook called
+[2024-10-24T14:36:58.015+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-11658d72-8db5-4a2d-ba0d-1dbdd90354af
+[2024-10-24T14:36:58.019+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-11658d72-8db5-4a2d-ba0d-1dbdd90354af/pyspark-18671aaf-fceb-44f0-aabf-45236c1ed013
+[2024-10-24T14:36:58.021+0000] {spark_submit.py:524} INFO - 24/10/24 14:36:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-bd76885f-4773-44e1-84c7-bd4e1b06f188
+[2024-10-24T14:36:58.084+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=api_openbrewerydb_to_silver_gold, task_id=Silver, execution_date=20231208T080000, start_date=20241024T143653, end_date=20241024T143658
+[2024-10-24T14:36:58.106+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-10-24T14:36:58.127+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
