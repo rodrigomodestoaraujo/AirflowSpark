@@ -7,9 +7,9 @@ x-spark-common: &spark-common
     dockerfile: Dockerfile
   volumes:
     - ./jobs:/opt/bitnami/spark/jobs
-    - ./data-lake/bronze:/opt/airflow/data-lake/bronze  # Volume Bronze
-    - ./data-lake/silver:/opt/airflow/data-lake/silver  # Volume Silver
-    - ./data-lake/gold:/opt/airflow/data-lake/gold  # Volume Gold
+    - ./data-lake/bronze:/opt/airflow/data-lake/bronze  
+    - ./data-lake/silver:/opt/airflow/data-lake/silver  
+    - ./data-lake/gold:/opt/airflow/data-lake/gold  
   networks:
     - code-with-yu
 
@@ -24,9 +24,9 @@ x-airflow-common: &airflow-common
     - ./jobs:/opt/airflow/jobs
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
-    - ./data-lake/bronze:/opt/airflow/data-lake/bronze # Volume Bronze
-    - ./data-lake/silver:/opt/airflow/data-lake/silver # Volume Silver
-    - ./data-lake/gold:/opt/airflow/data-lake/gold # Volume Gold
+    - ./data-lake/bronze:/opt/airflow/data-lake/bronze 
+    - ./data-lake/silver:/opt/airflow/data-lake/silver 
+    - ./data-lake/gold:/opt/airflow/data-lake/gold 
   depends_on:
     - postgres
   networks:
