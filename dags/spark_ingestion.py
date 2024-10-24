@@ -7,7 +7,8 @@ dag = DAG(
     dag_id = "Ingestion",
     default_args = {
         "owner": "Rodrigo Araujo",
-        "start_date": airflow.utils.dates.days_ago(1)
+        "start_date": airflow.utils.dates.days_ago(1),
+        "retries": 2
     },
     schedule_interval = "@daily"
 )

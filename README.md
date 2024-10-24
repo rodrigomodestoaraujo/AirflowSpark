@@ -11,6 +11,13 @@ Docker com Airflow + Postgres + Spark cluster
 
     $ $ git clone https://github.com/rodrigomodestoaraujo/AirflowSpark.git
 
+### Liberação de acesso a pastas
+
+    $ sudo chmod -R 777 ./logs
+    $ sudo chmod -R 777 ./data-lake/bronze
+    $ sudo chmod -R 777 ./data-lake/silver
+    $ sudo chmod -R 777 ./data-lake/gold
+
 ### Construindo projeto com Docker
 
     $ docker-compose up  --build
@@ -29,13 +36,6 @@ Docker com Airflow + Postgres + Spark cluster
     * Host: spark://spark-master
     * Port: 7077
     * Extra: {"queue": "root.default"}
-
-
-### Dicas: 
-
-Caso você encontre o erro "[Errno 13] Permission denied: '/opt/airflow/logs/scheduler'", execute o comando abaixo:
-
-    $ sudo chmod -R 777 ./logs
 
 
 ### Obrigado pela leitura!
