@@ -40,6 +40,12 @@ Docker com Airflow + Spark cluster + Postgres
     - Port: 7077
     - Extra: {"queue": "root.default"}
 
+## Ativação de dags
+
+Ative as duas dags abaixo:
+
+- api_openbrewerydb_to_bronze
+- api_openbrewerydb_to_silver_gold
 
 # Pipelines Airflow - API OpenBreweryDB
 
