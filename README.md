@@ -10,7 +10,7 @@ Docker com Airflow + Spark cluster + Postgres
 
 ## Clone do projeto
 
-    $ $ git clone https://github.com/rodrigomodestoaraujo/AirflowSpark.git
+    $ git clone https://github.com/rodrigomodestoaraujo/AirflowSpark.git
 
 ## Liberação de acesso a pastas
 
