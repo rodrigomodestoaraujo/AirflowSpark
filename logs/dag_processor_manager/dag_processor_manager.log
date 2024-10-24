@@ -1220,3 +1220,629 @@ File Path                                   PID  Runtime      # DAGs    # Errors
 /opt/airflow/dags/consume_brewery_api.py    205  0.02s             1           0  0.14s           2024-10-24T00:55:01
 ================================================================================
 [2024-10-24T00:55:44.185+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:06:19.695+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:06:19.696+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:06:19.696+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:06:19.696+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:06:19.697+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:06:19.804+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    176  0.05s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    173  0.05s             0           0
+================================================================================
+[2024-10-24T01:06:37.714+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:06:54.539+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:06:54.542+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:06:54.543+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:06:54.543+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:06:54.545+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:06:54.655+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    176  0.04s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    173  0.05s             0           0
+================================================================================
+[2024-10-24T01:07:24.936+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    188  0.01s             1           0  0.13s           2024-10-24T01:06:54
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.19s           2024-10-24T01:07:22
+================================================================================
+[2024-10-24T01:07:40.651+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:07:57.058+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:07:57.065+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:07:57.066+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:07:57.066+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:07:57.068+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:07:57.154+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    175  0.03s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    172  0.04s             0           0
+================================================================================
+[2024-10-24T01:08:27.428+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    186  0.00s             1           0  0.10s           2024-10-24T01:07:57
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    183  0.01s             1           0  0.11s           2024-10-24T01:07:57
+================================================================================
+[2024-10-24T01:08:57.737+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    196  0.01s             1           0  0.09s           2024-10-24T01:08:27
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    193  0.01s             1           0  0.10s           2024-10-24T01:08:27
+================================================================================
+[2024-10-24T01:09:28.058+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    206  0.01s             1           0  0.10s           2024-10-24T01:08:57
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    203  0.02s             1           0  0.12s           2024-10-24T01:08:57
+================================================================================
+[2024-10-24T01:09:38.661+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:09:58.228+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:09:58.236+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:09:58.236+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:09:58.237+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:09:58.238+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:09:58.325+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    176  0.03s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    173  0.04s             0           0
+================================================================================
+[2024-10-24T01:10:28.623+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    187  0.01s             1           0  0.12s           2024-10-24T01:09:58
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    184  0.03s             1           0  0.13s           2024-10-24T01:09:58
+================================================================================
+[2024-10-24T01:10:58.969+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    197  0.01s             1           0  0.10s           2024-10-24T01:10:28
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    194  0.02s             1           0  0.12s           2024-10-24T01:10:28
+================================================================================
+[2024-10-24T01:11:29.311+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    211  0.01s             1           0  0.12s           2024-10-24T01:10:59
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    208  0.03s             1           0  0.13s           2024-10-24T01:10:59
+================================================================================
+[2024-10-24T01:11:59.632+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    221  0.01s             1           0  0.11s           2024-10-24T01:11:29
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    218  0.02s             1           0  0.12s           2024-10-24T01:11:29
+================================================================================
+[2024-10-24T01:12:30.094+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    777  0.06s             1           0  0.10s           2024-10-24T01:11:59
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    776  0.10s             1           0  0.11s           2024-10-24T01:11:59
+================================================================================
+[2024-10-24T01:13:09.844+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    855  0.59s             1           0  0.78s           2024-10-24T01:12:30
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  1.90s           2024-10-24T01:12:31
+================================================================================
+[2024-10-24T01:13:53.854+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    855  49.79s            1           0  0.78s           2024-10-24T01:12:30
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    858  0.01s             1           0  1.90s           2024-10-24T01:12:31
+================================================================================
+[2024-10-24T01:13:54.066+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 855 started at 2024-10-24T01:13:04.059426+00:00 has timed out, killing it.
+[2024-10-24T01:14:34.378+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    917  0.14s             0           1  50.01s          2024-10-24T01:13:54
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    915  1.21s             1           0  1.96s           2024-10-24T01:13:55
+================================================================================
+[2024-10-24T01:15:28.378+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:15:28.470+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:15:28.757+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_silver.py with PID 915 started at 2024-10-24T01:14:32.589737+00:00 has timed out, killing it.
+[2024-10-24T01:15:28.831+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 917 started at 2024-10-24T01:14:33.661148+00:00 has timed out, killing it.
+[2024-10-24T01:15:29.058+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  55.06s          2024-10-24T01:15:28
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           0           1  56.13s          2024-10-24T01:15:28
+================================================================================
+[2024-10-24T01:16:38.762+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    924  0.59s             0           1  55.06s          2024-10-24T01:15:28
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    921  13.56s            0           1  56.13s          2024-10-24T01:15:28
+================================================================================
+[2024-10-24T01:17:13.525+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_silver.py with PID 921 started at 2024-10-24T01:16:22.555843+00:00 has timed out, killing it.
+[2024-10-24T01:17:14.186+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    924  38.62s            0           1  55.06s          2024-10-24T01:15:28
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           0           1  50.87s          2024-10-24T01:17:13
+================================================================================
+[2024-10-24T01:17:44.624+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  45.51s          2024-10-24T01:17:21
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.28s           2024-10-24T01:17:43
+================================================================================
+[2024-10-24T01:18:15.093+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.28s           2024-10-24T01:17:51
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.26s           2024-10-24T01:18:14
+================================================================================
+[2024-10-24T01:18:45.197+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.28s           2024-10-24T01:18:22
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.71s           2024-10-24T01:18:45
+================================================================================
+[2024-10-24T01:19:15.698+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.15s           2024-10-24T01:18:52
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   3589  0.01s             1           0  0.71s           2024-10-24T01:18:45
+================================================================================
+[2024-10-24T01:19:46.163+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.39s           2024-10-24T01:19:23
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4149  0.02s             1           0  0.28s           2024-10-24T01:19:15
+================================================================================
+[2024-10-24T01:20:16.679+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.27s           2024-10-24T01:19:53
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4735  0.01s             1           0  0.32s           2024-10-24T01:19:46
+================================================================================
+[2024-10-24T01:20:28.952+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:20:28.963+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:20:47.114+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.24s           2024-10-24T01:20:24
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.53s           2024-10-24T01:20:17
+================================================================================
+[2024-10-24T01:21:17.637+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.26s           2024-10-24T01:20:54
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   6021  0.01s             1           0  0.19s           2024-10-24T01:20:47
+================================================================================
+[2024-10-24T01:21:48.043+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.25s           2024-10-24T01:21:24
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   6629  0.01s             1           0  0.20s           2024-10-24T01:21:17
+================================================================================
+[2024-10-24T01:22:18.547+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.23s           2024-10-24T01:21:55
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   7221  0.01s             1           0  0.30s           2024-10-24T01:21:48
+================================================================================
+[2024-10-24T01:22:48.990+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  1.03s           2024-10-24T01:22:26
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   8039  0.01s             1           0  0.27s           2024-10-24T01:22:18
+================================================================================
+[2024-10-24T01:24:15.975+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 8068 started at 2024-10-24T01:22:57.177591+00:00 has timed out, killing it.
+[2024-10-24T01:24:17.567+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  78.64s          2024-10-24T01:24:15
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   8105  0.57s             1           0  2.41s           2024-10-24T01:22:51
+================================================================================
+[2024-10-24T01:25:16.062+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   8318  0.05s             0           1  78.64s          2024-10-24T01:24:15
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   8316  0.31s             1           0  7.38s           2024-10-24T01:24:24
+================================================================================
+[2024-10-24T01:25:31.030+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:25:31.628+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:25:57.324+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   8318  41.39s            0           1  78.64s          2024-10-24T01:24:15
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  41.65s          2024-10-24T01:25:57
+================================================================================
+[2024-10-24T01:26:17.816+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 8318 started at 2024-10-24T01:25:15.920317+00:00 has timed out, killing it.
+[2024-10-24T01:26:27.807+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  61.88s          2024-10-24T01:26:17
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   8427  0.01s             1           0  41.65s          2024-10-24T01:25:57
+================================================================================
+[2024-10-24T01:26:58.137+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.40s           2024-10-24T01:26:48
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  1.84s           2024-10-24T01:26:29
+================================================================================
+[2024-10-24T01:27:28.267+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.72s           2024-10-24T01:27:19
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.96s           2024-10-24T01:27:01
+================================================================================
+[2024-10-24T01:28:02.933+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py  10380  5.81s             1           0  0.72s           2024-10-24T01:27:19
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  1.34s           2024-10-24T01:27:32
+================================================================================
+[2024-10-24T01:28:56.376+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 10380 started at 2024-10-24T01:27:53.876662+00:00 has timed out, killing it.
+[2024-10-24T01:28:58.545+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  62.02s          2024-10-24T01:28:55
+/opt/airflow/dags/api_openbrewerydb_to_silver.py  10425  42.03s            1           0  1.34s           2024-10-24T01:27:32
+================================================================================
+[2024-10-24T01:29:08.488+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_silver.py with PID 10425 started at 2024-10-24T01:28:16.514774+00:00 has timed out, killing it.
+[2024-10-24T01:34:00.190+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:34:00.279+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:34:02.114+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py  10522  0.06s             0           1  62.02s          2024-10-24T01:28:55
+/opt/airflow/dags/api_openbrewerydb_to_silver.py  10520  0.13s             0           1  51.51s          2024-10-24T01:29:08
+================================================================================
+[2024-10-24T01:35:21.448+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py  10522  49.57s            0           1  62.02s          2024-10-24T01:28:55
+/opt/airflow/dags/api_openbrewerydb_to_silver.py  10520  49.64s            0           1  51.51s          2024-10-24T01:29:08
+================================================================================
+[2024-10-24T01:35:24.309+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_silver.py with PID 10520 started at 2024-10-24T01:34:01.911097+00:00 has timed out, killing it.
+[2024-10-24T01:35:24.866+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 10522 started at 2024-10-24T01:34:01.981213+00:00 has timed out, killing it.
+[2024-10-24T01:35:52.067+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  82.33s          2024-10-24T01:35:24
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           0           1  82.40s          2024-10-24T01:35:24
+================================================================================
+[2024-10-24T01:36:19.007+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:37:05.764+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:37:05.765+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:37:05.765+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:37:05.765+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:37:05.767+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:37:05.880+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    172  0.07s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    175  0.04s             0           0
+================================================================================
+[2024-10-24T01:37:36.067+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   1141  0.00s             1           0  0.13s           2024-10-24T01:37:05
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.27s           2024-10-24T01:37:06
+================================================================================
+[2024-10-24T01:38:06.481+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   1888  0.02s             1           0  0.25s           2024-10-24T01:37:36
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   1889  0.01s             1           0  0.20s           2024-10-24T01:37:36
+================================================================================
+[2024-10-24T01:38:36.817+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   2715  0.01s             1           0  0.20s           2024-10-24T01:38:06
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   2716  0.00s             1           0  0.27s           2024-10-24T01:38:06
+================================================================================
+[2024-10-24T01:39:07.349+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   3366  0.03s             1           0  0.31s           2024-10-24T01:38:37
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   3368  0.01s             1           0  0.30s           2024-10-24T01:38:37
+================================================================================
+[2024-10-24T01:39:38.374+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   4088  0.04s             1           0  0.57s           2024-10-24T01:39:07
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4091  0.02s             1           0  0.58s           2024-10-24T01:39:07
+================================================================================
+[2024-10-24T01:40:32.634+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   4203  0.42s             1           0  2.04s           2024-10-24T01:39:40
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4206  0.03s             1           0  1.92s           2024-10-24T01:39:40
+================================================================================
+[2024-10-24T01:41:07.863+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   4203  35.77s            1           0  2.04s           2024-10-24T01:39:40
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4206  35.39s            1           0  1.92s           2024-10-24T01:39:40
+================================================================================
+[2024-10-24T01:42:24.829+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:42:27.938+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:43:02.692+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   4261  1.56s             1           0  41.87s          2024-10-24T01:41:13
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4262  0.55s             1           0  40.42s          2024-10-24T01:41:12
+================================================================================
+[2024-10-24T01:43:50.560+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_bronze.py with PID 4261 started at 2024-10-24T01:42:59.310505+00:00 has timed out, killing it.
+[2024-10-24T01:43:50.675+0000] {manager.py:1217} ERROR - Processor for /opt/airflow/dags/api_openbrewerydb_to_silver.py with PID 4262 started at 2024-10-24T01:43:00.322387+00:00 has timed out, killing it.
+[2024-10-24T01:43:50.726+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           0           1  51.25s          2024-10-24T01:43:50
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           0           1  50.24s          2024-10-24T01:43:50
+================================================================================
+[2024-10-24T01:44:29.698+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py   4308  2.58s             0           1  51.25s          2024-10-24T01:43:50
+/opt/airflow/dags/api_openbrewerydb_to_silver.py   4309  1.38s             0           1  50.24s          2024-10-24T01:43:50
+================================================================================
+[2024-10-24T01:44:58.075+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2024-10-24T01:45:59.725+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-10-24T01:45:59.725+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-10-24T01:45:59.725+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-24T01:45:59.726+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:45:59.727+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:45:59.828+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    172  0.06s             0           0
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    175  0.04s             0           0
+================================================================================
+[2024-10-24T01:46:30.105+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    183  0.02s             1           0  0.12s           2024-10-24T01:45:59
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    186  0.01s             1           0  0.11s           2024-10-24T01:45:59
+================================================================================
+[2024-10-24T01:47:00.327+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    193  0.01s             1           0  0.12s           2024-10-24T01:46:30
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    196  0.01s             1           0  0.11s           2024-10-24T01:46:30
+================================================================================
+[2024-10-24T01:47:30.660+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    203  0.02s             1           0  0.11s           2024-10-24T01:47:00
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    206  0.01s             1           0  0.10s           2024-10-24T01:47:00
+================================================================================
+[2024-10-24T01:48:00.962+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    213  0.02s             1           0  0.11s           2024-10-24T01:47:30
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    216  0.01s             1           0  0.10s           2024-10-24T01:47:30
+================================================================================
+[2024-10-24T01:48:31.196+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py    223  0.02s             1           0  0.12s           2024-10-24T01:48:01
+/opt/airflow/dags/api_openbrewerydb_to_silver.py    226  0.01s             1           0  0.11s           2024-10-24T01:48:01
+================================================================================
+[2024-10-24T01:49:01.612+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.18s           2024-10-24T01:48:42
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.18s           2024-10-24T01:48:33
+================================================================================
+[2024-10-24T01:49:32.025+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.11s           2024-10-24T01:49:23
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.11s           2024-10-24T01:49:19
+================================================================================
+[2024-10-24T01:50:02.286+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.34s           2024-10-24T01:49:53
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.12s           2024-10-24T01:49:50
+================================================================================
+[2024-10-24T01:50:32.565+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.14s           2024-10-24T01:50:24
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.10s           2024-10-24T01:50:20
+================================================================================
+[2024-10-24T01:50:59.838+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-10-24T01:50:59.839+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2024-10-24T01:51:02.879+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/api_openbrewerydb_to_bronze.py                           1           0  0.12s           2024-10-24T01:50:54
+/opt/airflow/dags/api_openbrewerydb_to_silver.py                           1           0  0.10s           2024-10-24T01:50:50
+================================================================================

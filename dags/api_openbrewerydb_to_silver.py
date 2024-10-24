@@ -1,35 +1,32 @@
 import airflow
+from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 
 dag = DAG(
-    dag_id = "Ingestion",
+    dag_id = "api_openbrewerydb_to_silver_gold",
     default_args = {
         "owner": "Rodrigo Araujo",
-        "start_date": airflow.utils.dates.days_ago(1),
-        "retries": 2
+        'start_date': datetime(2023, 10, 22),
+        "retries": 1
     },
-    schedule_interval = "@daily"
-)
-
-bronze = PythonOperator(
-    task_id="Bronze",
-    python_callable = lambda: print("Jobs started"),
-    dag=dag
+    schedule_interval='0 8 * * *',
+    max_active_runs=1,
 )
 
 silver = SparkSubmitOperator(
     task_id="Silver",
     conn_id="spark-conn",
-    application="jobs/silver/usuarios.py",
+    application="jobs/silver/api_openbrewerydb.py",
     dag=dag
 )
 
-gold = PythonOperator(
+gold = SparkSubmitOperator(
     task_id="Gold",
-    python_callable = lambda: print("Jobs completed successfully"),
+    conn_id="spark-conn",
+    application="jobs/gold/api_openbrewerydb.py",
     dag=dag
 )
 
-bronze >> silver >> gold
+silver >> gold

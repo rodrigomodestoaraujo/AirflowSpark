@@ -1,0 +1,49 @@
+[2024-10-24T01:39:08.711+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-26T08:00:00+00:00 [queued]>
+[2024-10-24T01:39:08.736+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-26T08:00:00+00:00 [queued]>
+[2024-10-24T01:39:08.737+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-10-24T01:39:08.772+0000] {taskinstance.py:1380} INFO - Executing <Task(SparkSubmitOperator): Silver> on 2023-12-26 08:00:00+00:00
+[2024-10-24T01:39:08.789+0000] {standard_task_runner.py:57} INFO - Started process 3381 to run task
+[2024-10-24T01:39:08.808+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_openbrewerydb_to_silver_gold', 'Silver', 'scheduled__2023-12-26T08:00:00+00:00', '--job-id', '181', '--raw', '--subdir', 'DAGS_FOLDER/api_openbrewerydb_to_silver.py', '--cfg-path', '/tmp/tmp7kcwhu5q']
+[2024-10-24T01:39:08.812+0000] {standard_task_runner.py:85} INFO - Job 181: Subtask Silver
+[2024-10-24T01:39:09.002+0000] {task_command.py:415} INFO - Running <TaskInstance: api_openbrewerydb_to_silver_gold.Silver scheduled__2023-12-26T08:00:00+00:00 [running]> on host de5108c6da1d
+[2024-10-24T01:39:09.517+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rodrigo Araujo' AIRFLOW_CTX_DAG_ID='api_openbrewerydb_to_silver_gold' AIRFLOW_CTX_TASK_ID='Silver' AIRFLOW_CTX_EXECUTION_DATE='2023-12-26T08:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-26T08:00:00+00:00'
+[2024-10-24T01:39:09.564+0000] {base.py:73} INFO - Using connection ID 'spark-conn' for task execution.
+[2024-10-24T01:39:09.571+0000] {spark_submit.py:363} INFO - Spark-Submit cmd: spark-submit --master spark://spark-master:7077 --name arrow-spark --queue root.default jobs/silver/api_openbrewerydb.py
+[2024-10-24T01:43:52.128+0000] {spark_submit.py:524} INFO - 24/10/24 01:43:51 INFO SparkContext: Running Spark version 3.5.3
+[2024-10-24T01:43:52.245+0000] {spark_submit.py:524} INFO - 24/10/24 01:43:52 INFO SparkContext: OS info Linux, 5.15.0-124-generic, amd64
+[2024-10-24T01:43:52.246+0000] {spark_submit.py:524} INFO - 24/10/24 01:43:52 INFO SparkContext: Java version 11.0.25
+[2024-10-24T01:44:29.744+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-10-24T01:44:32.851+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:32 INFO ResourceUtils: ==============================================================
+[2024-10-24T01:44:32.853+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:32 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-10-24T01:44:32.855+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:32 INFO ResourceUtils: ==============================================================
+[2024-10-24T01:44:32.856+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:32 INFO SparkContext: Submitted application: IngestaoSilver
+[2024-10-24T01:44:33.087+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:33 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-10-24T01:44:33.314+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:33 INFO ResourceProfile: Limiting resource is cpu
+[2024-10-24T01:44:33.335+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:33 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-10-24T01:44:34.576+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:34 INFO SecurityManager: Changing view acls to: ***
+[2024-10-24T01:44:34.583+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:34 INFO SecurityManager: Changing modify acls to: ***
+[2024-10-24T01:44:34.586+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:34 INFO SecurityManager: Changing view acls groups to:
+[2024-10-24T01:44:34.588+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:34 INFO SecurityManager: Changing modify acls groups to:
+[2024-10-24T01:44:34.590+0000] {spark_submit.py:524} INFO - 24/10/24 01:44:34 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ***; groups with view permissions: EMPTY; users with modify permissions: ***; groups with modify permissions: EMPTY
+[2024-10-24T01:44:35.081+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-10-24T01:44:35.275+0000] {process_utils.py:131} INFO - Sending 15 to group 3381. PIDs of all processes in the group: [3404, 4120, 3381]
+[2024-10-24T01:44:35.303+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 3381
+[2024-10-24T01:44:35.306+0000] {taskinstance.py:1630} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-10-24T01:44:35.315+0000] {spark_submit.py:654} INFO - Sending kill signal to spark-submit
+[2024-10-24T01:44:35.534+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 183, in execute
+    self._hook.submit(self._application)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 438, in submit
+    self._process_spark_submit_log(iter(self._submit_sp.stdout))  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 492, in _process_spark_submit_log
+    for line in itr:
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 1632, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-10-24T01:44:35.697+0000] {taskinstance.py:1398} INFO - Marking task as FAILED. dag_id=api_openbrewerydb_to_silver_gold, task_id=Silver, execution_date=20231226T080000, start_date=20241024T013908, end_date=20241024T014435
+[2024-10-24T01:44:35.722+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4120, status='terminated', started='01:39:39') (4120) terminated with exit code None
+[2024-10-24T01:44:35.794+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 181 for task Silver (Task received SIGTERM signal; 3381)
+[2024-10-24T01:44:35.848+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=3381, status='terminated', exitcode=1, started='01:39:08') (3381) terminated with exit code 1
+[2024-10-24T01:44:35.849+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=3404, status='terminated', started='01:39:08') (3404) terminated with exit code None

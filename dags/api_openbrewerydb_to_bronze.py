@@ -29,7 +29,7 @@ default_args = {
     'owner': 'Rodrigo Araujo',
     'depends_on_past': False,
     'start_date': datetime(2023, 10, 22),
-    'retries': 3,
+    'retries': 1,
     'retry_delay': timedelta(minutes=5)
 }
 
@@ -38,6 +38,7 @@ with DAG(
     default_args=default_args,
     description='DAG para extrair dados da API OpenBrewery e salvar em bronze',
     schedule_interval='0 7 * * *',
+    max_active_runs=1,
     catchup=False,
 ) as dag:
 

@@ -1,0 +1,14 @@
+[2024-10-24T01:49:26.711+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_openbrewerydb_to_bronze.api_openbrewerydb_to_bronze manual__2024-10-24T01:49:25.131076+00:00 [queued]>
+[2024-10-24T01:49:26.717+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_openbrewerydb_to_bronze.api_openbrewerydb_to_bronze manual__2024-10-24T01:49:25.131076+00:00 [queued]>
+[2024-10-24T01:49:26.718+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-10-24T01:49:26.729+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): api_openbrewerydb_to_bronze> on 2024-10-24 01:49:25.131076+00:00
+[2024-10-24T01:49:26.732+0000] {standard_task_runner.py:57} INFO - Started process 264 to run task
+[2024-10-24T01:49:26.735+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'api_openbrewerydb_to_bronze', 'api_openbrewerydb_to_bronze', 'manual__2024-10-24T01:49:25.131076+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/api_openbrewerydb_to_bronze.py', '--cfg-path', '/tmp/tmp_31d_h45']
+[2024-10-24T01:49:26.737+0000] {standard_task_runner.py:85} INFO - Job 195: Subtask api_openbrewerydb_to_bronze
+[2024-10-24T01:49:26.785+0000] {task_command.py:415} INFO - Running <TaskInstance: api_openbrewerydb_to_bronze.api_openbrewerydb_to_bronze manual__2024-10-24T01:49:25.131076+00:00 [running]> on host de5108c6da1d
+[2024-10-24T01:49:26.864+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rodrigo Araujo' AIRFLOW_CTX_DAG_ID='api_openbrewerydb_to_bronze' AIRFLOW_CTX_TASK_ID='api_openbrewerydb_to_bronze' AIRFLOW_CTX_EXECUTION_DATE='2024-10-24T01:49:25.131076+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-24T01:49:25.131076+00:00'
+[2024-10-24T01:49:27.046+0000] {logging_mixin.py:151} INFO - Arquivo gerado com sucesso!
+[2024-10-24T01:49:27.050+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-10-24T01:49:27.086+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=api_openbrewerydb_to_bronze, task_id=api_openbrewerydb_to_bronze, execution_date=20241024T014925, start_date=20241024T014926, end_date=20241024T014927
+[2024-10-24T01:49:27.107+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-10-24T01:49:27.131+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
